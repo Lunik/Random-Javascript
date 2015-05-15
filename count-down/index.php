@@ -7,7 +7,7 @@
       $THEME = "newYear";
       break;
     default:
-      $THEME = "newYear";
+      $THEME = "christmas";
       break;
   }
 ?>
@@ -39,7 +39,7 @@
   switch($THEME){
     case "christmas":
       echo '<script type="text/javascript" src="Themes/Noel/jsnow.min.js"></script>
-      <script src="Themes/Noel/noel.min.js"></script>';
+      <script src="Themes/Noel/noel.js"></script>';
       break;
     case "newYear":
       echo '<script src="Themes/NouvelAn/ny.js">

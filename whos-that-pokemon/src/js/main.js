@@ -126,11 +126,11 @@ function playSound(nom){
 function muteUnmute(){
   if(ISSOUND){
     ISSOUND = false;
-    $(".inputSound").css("background","url('../../../../../images/but/mute.png')")
+    $(".inputSound").css("background","url('images/but/mute.png')")
       .css("background-size","100%");
   } else {
     ISSOUND = true;
-    $(".inputSound").css("background","url('../../../../../images/but/unmute.png')")
+    $(".inputSound").css("background","url('images/but/unmute.png')")
       .css("background-size","100%");
   }
 }
