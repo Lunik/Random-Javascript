@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    border:none;
+    overflow: hidden;
+}
+
+.date{
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height:200px;
+}
+
+.container{
+    z-index: 100;
+}
+.timer-wrap{
+    width: 400px;
+
+    margin:auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+    text-align: center;
+
+    background-color: #FFF;
+    border: 3px solid #111;
+    border-radius: 5px;
+
+}
+
+.timer{
+    height: 40px;
+    marin: 0 auto;
+    overflow: hidden;
+    margin-left: 50px;
+
+}
+
+.cntDigit{
+    height: 400px;
+    width: 30px;
+    float: left;
+    background: url(images/digits.png);
+    -webkit-transition: margin-top 1s ease-in-out;
+}
+
+.timer-wrap span{
+    width: 57px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}

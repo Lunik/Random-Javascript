@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Who's That Pokemon</title>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <div class="title">
+    <h1 class="titleFG">Who's That Pokemon</h1>
+    <h1 class="titleBG">Who's That Pokemon</h1>
+  </div>
+  <div class="container">
+    <h2 class="score">Score: <span class="scoreNb"></span></h2>
+    <div class="pkmSprite"></div>
+    <div class="pkmNum"></div>
+    <div class="pkmName"></div>
+    <button class="inputReload"></button>
+    <input type="text" class="inputName" list="pokemonList">
+    <datalist class="dataPokemonList" id="pokemonList"></datalist>
+    <button class="inputValider"></button>
+    <button class="inputSound"></button>
+  </div>
+  <script src="../../../src/js/jquery.min.js"></script>
+  <script src="../../../src/js/howler.min.js"></script>
+  <script src="src/js/main.js"></script>
+  <!-- http://livestats.fr - Outils de mesure d'audience en temps réel -->
+  <script type="text/javascript" src="http://livestats.fr/counter.php?u=lunik"></script>
+  <!-- Fin de http://livestats.fr -->
+</body>
+</html>

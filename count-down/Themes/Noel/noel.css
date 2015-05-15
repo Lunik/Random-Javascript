@@ -1,0 +1,68 @@
+.header{
+    background: url(images/guirlande.png);
+    background-size: 20%;
+    background-repeat: repeat-x;
+    border: none;
+}
+
+body{
+    background: url(images/background.png),#bbdbf4;
+    background-size: 11%;
+
+}
+
+#canvas-snow{
+    position:fixed;
+    top:0px;
+}
+
+.papaNoel{
+    margin:auto;
+    text-align:center;
+}
+
+.papaNoel img{
+    width: 400px;
+    margin-top: 70px;
+}
+
+.renne{
+    position: fixed;
+    bottom:0px;
+}
+
+.renne img{
+    width:30%;
+}
+
+.renneAnnime{
+    position: fixed;
+    z-index: -1;
+}
+
+.renneAnnime img{
+    width: 200px;
+}
+
+#renneA1{
+    right:-300px;
+    bottom: 20%;
+}
+
+#renneA2{
+    right:-300px;
+    bottom: 50%;
+}
+
+.snowman{
+    position: fixed;
+    right: 20%;
+    bottom: 5%;
+    z-index: 1;
+    text-align: right;
+
+}
+
+.snowman img{
+    width: 40%;
+}

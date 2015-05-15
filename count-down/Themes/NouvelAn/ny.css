@@ -1,0 +1,26 @@
+.header{
+    background-size: 20%;
+    background-repeat: repeat-x;
+    border: none;
+}
+
+body{
+    background: url(images/background.jpeg);
+    background-position: top center;
+    height: 100%;
+}
+
+.annee{
+   margin:auto;
+    text-align: center;
+}
+
+.timer-wrap {
+    margin-right:200px;
+    margin-top:0px;
+}
+
+#canvas-firework{
+    position:fixed;
+    top:0px;
+}

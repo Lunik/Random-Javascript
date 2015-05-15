@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Brave Frontier Calculator</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <meta charset="UTF-8" />
+</head>
+<body>
+
+<div class="container">
+  <label for="energy" id="label_energy">Your current Energy:</label>
+    <input type="number" name="energy" placeholder="Ex: 10" min="0" max="500" id="energy"/>
+  <label for="wanted_energy" id="label_wanted_energy">Wanted amount of Energy:</label>
+    <input type="number" name="wanted_energy" placeholder="Ex: 10" min="0" max="500" id="wanted_energy"/>
+  <label for="next_energy" id="label_next_energy">Next Energy in:</label>
+    <input type="text" name="next_energy" placeholder="Minutes : Seconds" id="next_energy"/>
+  <input type="submit" id="submit_energy">
+</div>
+
+<footer>
+  Les images appartiennent à leurs auteurs respectifs -->
+  <span class="imgUrl"></span>
+</footer>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+<!-- http://livestats.fr - Outils de mesure d'audience en temps réel -->
+<script type="text/javascript" src="http://livestats.fr/counter.php?u=lunik"></script>
+<!-- Fin de http://livestats.fr -->
+</body>
+</html>

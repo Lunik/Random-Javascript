@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "PokemonH";
+    src: url("../../../../../images/fonts/Pokemon_Hollow.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PokemonS";
+    src: url("../../../../../images/fonts/Pokemon_Solid.ttf") format("truetype");
+}
+
+body{
+    background: #111;
+    color: #EEE;
+}
+.title{
+    width: 691px;
+    height: 200px;
+    top: 0px;
+    margin: auto;
+}
+
+.titleBG{
+    position: absolute;
+    font: 70px "PokemonH";
+    color: blue;
+}
+
+.titleFG{
+    position: absolute;
+    font: 70px "PokemonS";
+    color: yellow;
+}
+
+.container{
+    text-align: center;
+}
+
+.pkmSprite{
+    height: 215px;
+    padding: 20px;
+}
+
+.inputName{
+    border: 3px solid #000;
+    border-radius: 5px;
+
+    outline: none;
+}
+
+.inputValider{
+    width: 20px;
+    height: 20px;
+
+    background: url("../../images/Pokeball.png");
+    background-size: 100%;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.inputReload{
+    width: 20px;
+    height: 20px;
+
+    background: url("../../images/refresh.png");
+    background-size: 100%;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.inputSound{
+    width: 20px;
+    height: 20px;
+
+    background: url("../../../../../images/but/mute.png");
+    background-size: 100%;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+}
