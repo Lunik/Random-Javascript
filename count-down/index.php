@@ -51,9 +51,7 @@
 ?>
 <!--CountDown-->
 <script src="js/jquery.countdown/jquery.countdown.min.js"></script>
-<!-- http://livestats.fr - Outils de mesure d'audience en temps réel -->
-<script type="text/javascript" src="http://livestats.fr/counter.php?u=lunik"></script>
-<!-- Fin de http://livestats.fr -->
+<script type="text/javascript" src="http://guillaume-lunik.fr/googleAnalytics.js"></script>
 </body>
 
 </html>
